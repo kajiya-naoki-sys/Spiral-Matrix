@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    container_name: spiral-matrix_project
+    tty: true
+    stdin_open: true
+    volumes:
+      - .:/matrix_project
+    working_dir: /matrix_project
