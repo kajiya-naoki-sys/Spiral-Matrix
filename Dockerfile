@@ -1,4 +1,4 @@
-FROM nlp-100-exercise-app
+FROM python:3.8
 
 WORKDIR /src
 CMD [ "/bin/bash" ]
